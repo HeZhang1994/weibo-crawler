@@ -1,5 +1,5 @@
 # Weibo Data Crawling
-This is the Python code for crawling posts and images of one specific user.
+This is the Python code for crawling posts and images of one specific Weibo user.
 
 The main code is forked from: https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627. 
 
