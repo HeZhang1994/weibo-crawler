@@ -56,8 +56,7 @@ list_cards = []  # Store "card" information.
 while ii < page:
     ii = ii + 1
     print('Start crawling all cards on page %d ...' % ii)
-    url = user_url + '&page=' + str(ii-1)  
-    # Note: [ii-1] The serial number of Weibo pages starts from 0!!!
+    url = user_url + '&page=' + str(ii)
     
     response = requests.get(url, headers=headers)
     ob_json = json.loads(response.text)  
