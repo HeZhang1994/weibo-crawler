@@ -1,6 +1,6 @@
 ## Task description:
-## Crawl Weibo information (text and images) of a specific Weibo user.
-## Target Weibo user: Ju Jingyi (https://m.weibo.cn/u/3669102477)
+## Crawl Weibo information (posted text and images) of one specific Weibo user.
+## Example: Ju Jingyi (https://m.weibo.cn/u/3669102477)
 
 ## Requirement: Python 3.0+.
 
@@ -29,7 +29,7 @@ headers = {
 
 # Note: 
 # The "Cookie" is obtained from https://m.weibo.cn/u/3669102477 (login required).
-# The "Cookie" might be changed in hours and should be updated accordingly!!!
+# The "Cookie" might be changed in 3` hours and should be updated accordingly!!!
 # The "Referer" should be changed for different weibo user!!!
 
 user_url = 'https://m.weibo.cn/api/container/getIndex?type=uid&value=3669102477&containerid=1076033669102477'
@@ -41,12 +41,12 @@ user_url = 'https://m.weibo.cn/api/container/getIndex?type=uid&value=3669102477&
 user_name = 'JuJingyi'
 
 page = 60
-# page (int): Specified pages for crawling.
+# page (int): Total pages for crawling.
 
 # Note: 
-# There are 13 posts on one page.
+# There are 13` posts on one Weibo page.
 # Set "page" = total posts/13.
-# For Ju Jingyi, "page" = 808/13.
+# Example for Ju Jingyi, "page" = 808`/13.
 
 
 ## Obtain the list of "card" information on specified pages.
@@ -57,7 +57,7 @@ while ii < page:
     ii = ii + 1
     print('Start crawling all cards on page %d ...' % ii)
     url = user_url + '&page=' + str(ii-1)  
-    # Note: The serial number of Weibo pages starts from 0!!!
+    # Note: [ii-1] The serial number of Weibo pages starts from 0!!!
     
     response = requests.get(url, headers=headers)
     ob_json = json.loads(response.text)  
@@ -68,13 +68,13 @@ while ii < page:
     
     print('... Finished.')
     
-    time.sleep(5)
+    time.sleep(2)
     print('Suspend 5 seconds.' + '\n' + 30 * '-')
     print('\n')
-    # Suspend 5 seconds after crawling cards on one page.
+    # Suspend 2 seconds after crawling cards on one page.
 
 
-## Crawl Weibo data (text and images).
+## Crawl Weibo data (posted text and images).
 
 print(40 * '=' + '\n' + 'The number of pages for crawling is: ' + str(len(list_cards)) + '.' + '\n' + 40 * '=' + '\n')
 
@@ -106,12 +106,12 @@ for cards in list_cards:
                 tree = html.fromstring(text)
                 text = tree.xpath('string(.)')
             
-            # Save text of posts.
+            # Save posted text.
             with open(path + 'weibo_crawl.txt', 'a', encoding='utf-8') as ff:
                 ff.write('\n' + 'The ' + str(count_weibo) + '-th weibo\n' + '***  Published on  ' + created_at + '  ***' + '\n')
                 ff.write(text + '\n')
             
-            # Save imgae of posts.
+            # Save posted imgaes.
             if 'bmiddle_pic' in card['mblog']:
                 image_path = path + str(count_weibo)
                 os.mkdir(image_path)
@@ -134,9 +134,9 @@ for cards in list_cards:
         count_weibo = count_weibo + 1
         print('... Finished.')
         
-        time.sleep(5)
-        print('Suspend 5 seconds.\n')  
-        # Suspend 5 seconds after crawling one Weibo post.
+        time.sleep(2)
+        print('Suspend 2 seconds.\n')  
+        # Suspend 2 seconds after crawling one Weibo post.
     
     page_weibo = page_weibo + 1
     print('... Completed.')
