@@ -19,4 +19,4 @@ This code fixes bugs and setting issues.
 
 XDDD
 
-![Equivariance](https://github.com/HeZhang1994/weibo-text-img-crawl/blob/master/JuJingyi.jpg)
+![Equivariance](https://github.com/HeZhang1994/weibo-text-img-crawl/blob/master/JuJingyi_Weibo/1/1.jpg)
