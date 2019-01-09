@@ -17,4 +17,4 @@ This code fixes bugs and setting issues.
 
 # Motivation
 
-![Equivariance](https://github.com/jonas-koehler/s2cnn/raw/master/examples/equivariance_plot/fig.jpeg)
+![Equivariance](https://github.com/HeZhang1994/weibo-text-img-crawl/blob/master/JuJingyi.jpg)
