@@ -15,6 +15,10 @@ This code fixes bugs and setting issues.
 
 * __Python 3.5.2__
 
+# Note
+
+Replace 'XXXX...XXX' of "Cookie" in "headers" with new cookie! 
+
 # Motivation
 
 XDDD
