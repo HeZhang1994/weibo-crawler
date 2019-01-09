@@ -1,11 +1,10 @@
 # Weibo Data Crawling
-This is the Python code for crawling posts and images of one specific Weibo user.
 
-The main code is forked from: https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627. 
+This is the Python implementation of Weibo data crawling (i.e., posted text and images of one specific Weibo user).
 
-This code removes the function of crawling comments.
+The main code is forked from: https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627.
 
-This code fixes bugs and setting issues.
+This implementation removes the function of crawling user comments and fixes bugs as well as setting issues.
 
 # Environment
 
@@ -15,9 +14,14 @@ This code fixes bugs and setting issues.
 
 * __Python 3.5.2__
 
-# Note
+# Running
 
-Replace 'XXXX...XXX' of "Cookie" in "headers" with new cookie! 
+Replace 'XXXX...XXX' of "Cookie" in "headers" with new cookie!
+
+Then, for Python implemented code, run:
+```bash
+$ python3 WeiboDataCrawling.py
+```
 
 # Motivation
 
