@@ -1,6 +1,6 @@
 ## Task description:
 ## Crawl Weibo information (posted text and images) of one specific Weibo user.
-## Example: Ju Jingyi (https://m.weibo.cn/u/3669102477)
+## Example: Ju Jingyi (https://m.weibo.cn/u/3669102477).
 
 ## Requirement: Python 3.0+.
 
