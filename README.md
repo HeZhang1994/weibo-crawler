@@ -1,10 +1,12 @@
 # Weibo Data Crawling
 
-This is the Python implementation of Weibo data crawling (i.e., posted text and images of one specific Weibo user).
+This is the Python implementation of crawling Weibo data (i.e., posted text, images and videos) of one specific Weibo user.
 
 The main code is forked from: https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627.
 
-This implementation removes the function of crawling user comments and fixes bugs as well as setting issues.
+This implementation removes the function of crawling user comments.
+
+This implementation adds the function of crawling videos.
 
 # Environment
 
@@ -16,13 +18,16 @@ This implementation removes the function of crawling user comments and fixes bug
 
 # Running
 
-1. Replace 'XXXX...XXX' of "Cookie" in "headers" with new cookie! (Q?)
+* Empty saving folder (i.e., JuJingyi_Weibo/ or JuJingyi_Weibo_TIV).
 
-2. Empty saving folder (i.e., JuJingyi_Weibo/).
-
-3. Run Python implemented code on Terminal:
+* To crawl text and images, run Python implemented code on Terminal:
 ```bash
 $ python3 WeiboDataCrawling_TextImage.py
+```
+
+* To crawl text, images and videos, run Python implemented code on Terminal:
+```bash
+$ python3 WeiboDataCrawling_TextImageVideo.py
 ```
 
 # Motivation
