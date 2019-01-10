@@ -18,6 +18,8 @@ This implementation removes the function of crawling user comments and fixes bug
 
 Replace 'XXXX...XXX' of "Cookie" in "headers" with new cookie! (Q?)
 
+Empty saving folder (i.e., JuJingyi_Weibo/).
+
 Then, for Python implemented code, run:
 ```bash
 $ python3 WeiboDataCrawling_TextImage.py
