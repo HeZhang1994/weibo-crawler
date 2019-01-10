@@ -16,11 +16,11 @@ This implementation removes the function of crawling user comments and fixes bug
 
 # Running
 
-Replace 'XXXX...XXX' of "Cookie" in "headers" with new cookie!
+Replace 'XXXX...XXX' of "Cookie" in "headers" with new cookie! (Q?)
 
 Then, for Python implemented code, run:
 ```bash
-$ python3 WeiboDataCrawling.py
+$ python3 WeiboDataCrawling_TextImage.py
 ```
 
 # Motivation
