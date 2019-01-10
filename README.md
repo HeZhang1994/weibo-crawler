@@ -2,7 +2,7 @@
 
 This is the Python implementation of crawling Weibo data (i.e., posted text, images and videos) of one Weibo user.
 
-The main code is forked from: https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627 (see SourceCode_weibocrawler.py).
+The source code (SourceCode_weibocrawler.py) is forked from: https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627.
 
 This implementation removes the function of crawling user comments.
 
