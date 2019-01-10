@@ -78,6 +78,7 @@ while ii < num_page:
     print('Suspend 3 seconds.' + '\n' + 30 * '-' + '\n')
     time.sleep(3)
     # Suspend 3 seconds after crawling cards on one page.
+    # This avoids failing to download images!!!
 
 
 ## Part 3 Crawl Weibo data (posted text, images and videos).
@@ -159,6 +160,7 @@ for cards in list_cards:
         print('Suspend 3 seconds.\n')  
         time.sleep(3)
         # Suspend 3 seconds after crawling one Weibo post.
+        # This avoids failing to download images!!!
     
     print('Finish crawling Weibo data on ' + str(page_weibo) + '-th page.' + '\n' + 40 * '-' + '\n')
     page_weibo = page_weibo + 1
