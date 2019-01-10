@@ -20,12 +20,12 @@ This implementation adds the function of crawling videos.
 
 * Empty saving folder (i.e., JuJingyi_Weibo/ or JuJingyi_Weibo_TIV).
 
-* To crawl text and images, run Python implemented code on Terminal:
+* To crawl **text** and **images**, run Python implemented code on Terminal:
 ```bash
 $ python3 WeiboDataCrawling_TextImage.py
 ```
 
-* To crawl text, images and videos, run Python implemented code on Terminal:
+* To crawl **text**, **images** and **videos**, run Python implemented code on Terminal:
 ```bash
 $ python3 WeiboDataCrawling_TextImageVideo.py
 ```
