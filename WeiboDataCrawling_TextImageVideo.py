@@ -126,7 +126,7 @@ for cards in list_cards:
                 for i in range(len(imgurl_weibo)):
                     temp = image_path + '/' + str(x) + '.jpg'
                     # Add image URL to text file.
-                    with open(path + 'weibo_crawl.txt', 'a', encoding='utf-8') as ff:
+                    with open(path + user_name + '_Weibo_Data.txt', 'a', encoding='utf-8') as ff:
                         ff.write('The link of image is：' + imgurl_weibo[i] + '\n')
                     print('Download the %s-th image of this weibo.' % x)
                     try:
