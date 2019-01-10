@@ -4,9 +4,7 @@ This is the Python implementation of crawling Weibo data (i.e., posted text, ima
 
 The source code (SourceCode_weibocrawler.py) is forked from: https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627.
 
-This implementation removes the function of crawling user comments.
-
-This implementation adds the function of crawling videos.
+Notes: We remove the function of crawling comments and add the function of crawling videos.
 
 # Environment
 
@@ -18,7 +16,7 @@ This implementation adds the function of crawling videos.
 
 # Running
 
-* Empty saving folder (i.e., JuJingyi_Weibo/ or JuJingyi_Weibo_TIV/).
+* Empty saving folder (i.e., JuJingyi_Weibo/ or JuJingyi_Weibo_TIV/) before running code!
 
 * To crawl **text** and **images**, excute the following command on Terminal:
 ```bash
