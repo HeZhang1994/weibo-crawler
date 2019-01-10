@@ -34,4 +34,4 @@ The Weibo data will be saved in JuJingyi_Weibo_TIV/ folder.
 
 XDDD
 
-![Equivariance](https://github.com/HeZhang1994/weibo-text-img-crawl/blob/master/JuJingyi_Weibo/1/1.jpg)
+![Equivariance](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/JuJingyi.jpg)
