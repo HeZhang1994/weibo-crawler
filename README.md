@@ -30,7 +30,7 @@ $ python3 WeiboDataCrawling_TextImageVideo.py
 ```
 The Weibo data will be saved in JuJingyi_Weibo_TIV/ folder.
 
-* To crawl **text**, **jpg and gif images** and **videos**, excute the following command on Terminal:
+* To crawl **text**, **jpg/gif images** and **videos**, excute the following command on Terminal:
 ```bash
 $ python3 WeiboDataCrawling_ALL.py
 ```
