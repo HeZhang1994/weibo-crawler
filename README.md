@@ -24,13 +24,13 @@ This implementation adds the function of crawling videos.
 ```bash
 $ python3 WeiboDataCrawling_TextImage.py
 ```
-The Weibo data will be saved in JuJingyi_Weibo/.
+The Weibo data will be saved in JuJingyi_Weibo/ folder.
 
 * To crawl **text**, **images** and **videos**, excute the following command on Terminal:
 ```bash
 $ python3 WeiboDataCrawling_TextImageVideo.py
 ```
-The Weibo data will be saved in JuJingyi_Weibo_TIV/.
+The Weibo data will be saved in JuJingyi_Weibo_TIV/ folder.
 
 # Motivation
 
