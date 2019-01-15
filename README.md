@@ -23,7 +23,7 @@ The code has been tested on **Ubuntu 14.04**.
 $ python WeiboDataCrawling_TextImage.py
 $ # or
 $ python3 WeiboDataCrawling_TextImage.py
-$ # if both py2 and py3 exist in your operating system.
+$ # if both py2 and py3 exist on your operating system.
 ```
 The Weibo data will be saved in JuJingyi_Weibo_TI/ folder.
 
@@ -32,7 +32,7 @@ The Weibo data will be saved in JuJingyi_Weibo_TI/ folder.
 $ python WeiboDataCrawling_TextImageVideo.py
 $ # or
 $ python3 WeiboDataCrawling_TextImageVideo.py
-$ # if both py2 and py3 exist in your operating system.
+$ # if both py2 and py3 exist on your operating system.
 ```
 The Weibo data will be saved in JuJingyi_Weibo_TIV/ folder.
 
@@ -41,7 +41,7 @@ The Weibo data will be saved in JuJingyi_Weibo_TIV/ folder.
 $ python WeiboDataCrawling_ALL.py
 $ # or
 $ python3 WeiboDataCrawling_ALL.py
-$ # if both py2 and py3 exist in your operating system.
+$ # if both py2 and py3 exist on your operating system.
 ```
 The Weibo data will be saved in JuJingyi_Weibo_ALL/ folder.
 
