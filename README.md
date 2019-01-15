@@ -12,7 +12,7 @@ Notes: We remove the function of crawling comments and add the function of crawl
 
 # Language
 
-* __Python 3.0+__
+* __Python 3.5__
 
 # Running
 
