@@ -20,19 +20,19 @@ Notes: We remove the function of crawling comments and add the function of crawl
 
 * To crawl **text** and **jpg images**, excute the following command on Terminal:
 ```bash
-$ python WeiboDataCrawling_TextImage.py
+$ python3 WeiboDataCrawling_TextImage.py
 ```
 The Weibo data will be saved in JuJingyi_Weibo_TI/ folder.
 
 * To crawl **text**, **jpg images** and **videos**, excute the following command on Terminal:
 ```bash
-$ python WeiboDataCrawling_TextImageVideo.py
+$ python3 WeiboDataCrawling_TextImageVideo.py
 ```
 The Weibo data will be saved in JuJingyi_Weibo_TIV/ folder.
 
 * To crawl **text**, **jpg/gif images** and **videos**, excute the following command on Terminal:
 ```bash
-$ python WeiboDataCrawling_ALL.py
+$ python3 WeiboDataCrawling_ALL.py
 ```
 The Weibo data will be saved in JuJingyi_Weibo_ALL/ folder.
 
