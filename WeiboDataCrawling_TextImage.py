@@ -112,6 +112,16 @@ for cards in list_cards:
                 text = ob_json['data']['longTextContent']
                 tree = html.fromstring(text)
                 text = tree.xpath('string(.)')
+#             else:
+#                 try:
+#                     tmp_url = 'https://m.weibo.cn/statuses/extend?id=' + mid
+#                     tmp_response = requests.get(tmp_url, headers=headers)
+#                     ob_json = json.loads(tmp_response.text)  # ob_json (dict)
+#                     text = ob_json['data']['longTextContent']
+#                     tree = html.fromstring(text)
+#                     text = tree.xpath('string(.)')
+#                 except:
+#                     text = "No short text extracted!"
             with open(path + user_name + '_Weibo_TIData.txt', 'a', encoding='utf-8') as ff:
                 ff.write('\n' + 'The ' + str(count_weibo) + '-th weibo\n' + '***  Published on  ' + created_at + '  ***' + '\n')
                 ff.write(text + '\n')
