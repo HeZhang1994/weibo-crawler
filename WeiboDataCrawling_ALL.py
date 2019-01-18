@@ -137,7 +137,7 @@ for cards in list_cards:
                     try:
                         urllib.request.urlretrieve(urllib.request.urlopen(imgjpg_url_weibo[i]).geturl(), temp)
                     except:
-                        print("Failed to download this image: %s" % imgjpg_url_weibo)
+                        print("Failed to download this image: %s" % imgjpg_url_weibo[i])
                     x_jpg += 1
                 
                 # 2-2/3 Save gif images.
@@ -151,7 +151,7 @@ for cards in list_cards:
                     try:
                         urllib.request.urlretrieve(urllib.request.urlopen(imggif_url_weibo[i]).geturl(), temp)
                     except:
-                        print("Failed to download this image: %s" % imggif_url_weibo)
+                        print("Failed to download this image: %s" % imggif_url_weibo[i])
                     x_gif += 1
                     
             # 3/3 Save video of posts.
