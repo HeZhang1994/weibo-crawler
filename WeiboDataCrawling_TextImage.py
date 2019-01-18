@@ -133,7 +133,7 @@ for cards in list_cards:
                     try:
                         urllib.request.urlretrieve(urllib.request.urlopen(imgurl_weibo[i]).geturl(), temp)
                     except:
-                        print("Failed to download this image: %s" % imgurl_weibo)
+                        print("Failed to download this image: %s" % imgurl_weibo[i])
                     x += 1
         
         print('Finish crawling the ' + str(count_weibo) + '-th Weibo post.')
