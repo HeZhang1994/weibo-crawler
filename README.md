@@ -4,9 +4,9 @@ This is the Python implementation of crawling Weibo data (i.e., posted text, jpg
 
 The source code (SourceCode_weibocrawler.py) is forked from: https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627.
 
-Removed function:
+* Removed function: Crawl comments of posts.
 
-  Crawling comments and add the function of crawling gif images and videos.
+* Added function: Crawl gif images and videos in original and transfered posts.
 
 # Environment
 
