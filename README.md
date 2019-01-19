@@ -24,7 +24,7 @@ The code has been tested on **Ubuntu 16.04**.
 ```bash
 ~$ python WeiboDataCrawling_ALL.py
 ```
-Those Weibo data will be saved in your specified folder (e.g., WeiboData_JuJingyi_20190119/).
+* Weibo data will be saved in your specified folder (e.g., WeiboData_JuJingyi_20190119/).
 
 # Motivation
 
