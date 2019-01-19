@@ -23,9 +23,6 @@ The code has been tested on **Ubuntu 14.04**.
 * To crawl **text**, **jpg/gif images** and **videos**, excute the following command on Terminal:
 ```bash
 $ python WeiboDataCrawling_ALL.py
-$ # or
-$ python3 WeiboDataCrawling_ALL.py
-$ # if both py2 and py3 exist on your operating system.
 ```
 The Weibo data will be saved in user specified folder (e.g., WeiboData_JuJingyi_20190119/).
 
