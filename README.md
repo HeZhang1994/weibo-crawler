@@ -18,13 +18,13 @@ The code has been tested on **Ubuntu 16.04**.
 
 # Running
 
-* Specify user settings in ```WeiboDataCrawling_ALL.py``` file (Line *-*).
+* Specify user settings in ```WeiboDataCrawling_ALL.py``` file (Line 17~22).
 
-* To crawl **text**, **jpg/gif images** and **videos**, excute the following command on Terminal:
+* To crawl **text**, **jpg/gif images** and **videos** data, excute the following command on Terminal:
 ```bash
-$ python WeiboDataCrawling_ALL.py
+~$ python WeiboDataCrawling_ALL.py
 ```
-The Weibo data will be saved in user specified folder (e.g., WeiboData_JuJingyi_20190119/).
+Those Weibo data will be saved in your specified folder (e.g., WeiboData_JuJingyi_20190119/).
 
 # Motivation
 
