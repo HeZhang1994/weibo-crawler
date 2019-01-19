@@ -18,25 +18,7 @@ The code has been tested on **Ubuntu 14.04**.
 
 # Running
 
-* Empty saving folder (i.e., JuJingyi_Weibo_TI/ or JuJingyi_Weibo_TIV/) before running code!
-
-* To crawl **text** and **jpg images**, excute the following command on Terminal:
-```bash
-$ python WeiboDataCrawling_TextImage.py
-$ # or
-$ python3 WeiboDataCrawling_TextImage.py
-$ # if both py2 and py3 exist on your operating system.
-```
-The Weibo data will be saved in JuJingyi_Weibo_TI/ folder.
-
-* To crawl **text**, **jpg images** and **videos**, excute the following command on Terminal:
-```bash
-$ python WeiboDataCrawling_TextImageVideo.py
-$ # or
-$ python3 WeiboDataCrawling_TextImageVideo.py
-$ # if both py2 and py3 exist on your operating system.
-```
-The Weibo data will be saved in JuJingyi_Weibo_TIV/ folder.
+* Specify user settings in ```WeiboDataCrawling_ALL.py``` file in .
 
 * To crawl **text**, **jpg/gif images** and **videos**, excute the following command on Terminal:
 ```bash
@@ -45,7 +27,7 @@ $ # or
 $ python3 WeiboDataCrawling_ALL.py
 $ # if both py2 and py3 exist on your operating system.
 ```
-The Weibo data will be saved in JuJingyi_Weibo_ALL/ folder.
+The Weibo data will be saved in user specified folder (e.g., WeiboData_JuJingyi_20190119/).
 
 # Motivation
 
