@@ -10,15 +10,15 @@ The source code (see [SourceCode_weibocrawler.py](https://github.com/HeZhang1994
 
 # Environment
 
-The code has been tested on **Ubuntu 14.04**. 
+The code has been tested on **Ubuntu 16.04**. 
 
 # Language
 
-* __Python 3.5 (3.0+)__
+* __Python 3.7 (3.0+)__
 
 # Running
 
-* Specify user settings in ```WeiboDataCrawling_ALL.py``` file ***.
+* Specify user settings in ```WeiboDataCrawling_ALL.py``` file (Line *-*).
 
 * To crawl **text**, **jpg/gif images** and **videos**, excute the following command on Terminal:
 ```bash
