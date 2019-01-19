@@ -6,11 +6,13 @@ The source code (see [SourceCode_weibocrawler.py](https://github.com/HeZhang1994
 
 ### Removed function: 
 
-Crawl comments of Weibo posts.
+1. Crawl comments of Weibo posts.
 
 ### Added function: 
 
-Crawl gif images and videos in both original and retweeted Weibo posts.
+1. Crawl gif images in both original and retweeted Weibo posts.
+
+2. Crawl videos in both original and retweeted Weibo posts.
 
 # Environment
 
