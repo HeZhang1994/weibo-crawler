@@ -38,4 +38,4 @@ XDDD
 
 ![Equivariance](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/JuJingyi.jpg)
 
-<i>Last updated: 24/02/2019</i>
+<i>Last updated: 28/01/2019</i>
