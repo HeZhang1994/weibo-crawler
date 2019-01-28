@@ -37,3 +37,5 @@ The code has been tested on **Ubuntu 16.04**.
 XDDD
 
 ![Equivariance](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/JuJingyi.jpg)
+
+<i>Last updated: 24/02/2019</i>
