@@ -4,25 +4,25 @@ This is the **Python** implementation of crawling Weibo data (i.e., posted text,
 
 The source code (see [SourceCode_weibocrawler.py](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/SourceCode_weibocrawler.py)) is forked from: https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627.
 
-### Removed function: 
+#### Removed function: 
 
 1. Crawl comments of Weibo posts.
 
-### Added function: 
+#### Added function: 
 
 1. Crawl gif images in both original and retweeted Weibo posts.
 
 2. Crawl videos in both original and retweeted Weibo posts.
 
-# Environment
+## Environment
 
 The code has been tested on **Ubuntu 16.04**.
 
-# Language
+## Language
 
 * __Python 3.7 (3.0+)__
 
-# Running
+## Running
 
 * Specify user settings in ```WeiboDataCrawling_ALL.py``` file (see line 17~22).
 
@@ -32,7 +32,7 @@ The code has been tested on **Ubuntu 16.04**.
 ```
 * Weibo data will be saved in your specified folder (e.g., WeiboData_JuJingyi_20190119/).
 
-# Motivation
+## Motivation
 
 XDDD
 
