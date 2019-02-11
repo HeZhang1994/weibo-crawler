@@ -16,7 +16,7 @@ The source code (see [SourceCode_weibocrawler.py](https://github.com/HeZhang1994
 
 ## Environment
 
-The code has been tested on **Ubuntu 16.04**.
+The code has been tested on **Ubuntu 16.04** operating system.
 
 ## Language
 
