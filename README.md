@@ -14,7 +14,7 @@ The source code [SourceCode_weibocrawler.py](https://github.com/HeZhang1994/weib
 
 ### Limitation
 
-1. Can not crawl comments of Weibo posts (removed from source code).
+- Can not crawl comments of Weibo posts (removed from source code).
 
 ## Environment
 
