@@ -4,7 +4,7 @@ This is a **Python** implementation of crawling Sina Weibo data (e.g., text, ima
 
 The source code [SourceCode_weibocrawler.py](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/SourceCode_weibocrawler.py) is forked from [here](https://www.researchgate.net/publication/305696390_Game_Theoretic_Hypergraph_Matching_for_Multi-source_Image_Correspondences).
 
-Please star this repository if you found its content useful. :-)
+<i>Please star this repository if you found its content useful.</i>
 
 ### Functions
 
