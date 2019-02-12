@@ -1,6 +1,6 @@
 # Weibo Data Crawler
 
-This is a **Python** implementation of crawling Weibo data (i.e., posted/retweeted text, jpg/gif images and videos) of one user.
+This is a **Python** implementation of crawling Sina Weibo data (e.g., text, images, and videos) of one user.
 
 The source code [SourceCode_weibocrawler.py](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/SourceCode_weibocrawler.py) is forked from: https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627.
 
