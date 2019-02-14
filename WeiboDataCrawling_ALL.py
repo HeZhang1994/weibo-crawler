@@ -4,7 +4,6 @@
 
 ## Requirement: Python 3.0+.
 
-
 from lxml import html
 import requests
 import json
@@ -21,7 +20,6 @@ import urllib.request
 # Line 61 --- tmp_folder_time
 # Line 62 --- user_name
 # Line 65 --- num_page
-
 
 ## Part 1 Set request headers of webpage.
 
