@@ -28,7 +28,7 @@ The code has been tested on **Ubuntu 16.04** operating system.
 
 ## Usage
 
-1. Specify settings of targeted user in ```WeiboDataCrawling_ALL.py``` file (see line 17~22).
+1. Specify settings of targeted Weibo user in ```WeiboDataCrawling_ALL.py``` (see instruction on line 17~22).
 
 2. To crawl **text**, **jpg/gif images** and **videos** data, execute the following command in Terminal.
 ```bash
