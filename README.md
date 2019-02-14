@@ -4,10 +4,6 @@ This is a **Python** implementation of crawling Sina Weibo data (e.g., text, ima
 
 The source code [SourceCode_weibocrawler.py](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/SourceCode_weibocrawler.py) is forked from [here](https://www.researchgate.net/publication/305696390_Game_Theoretic_Hypergraph_Matching_for_Multi-source_Image_Correspondences).
 
-<i>Please star this repository if you found its content useful. Thank you very much.</i>
-
-<i>如果该程序对您有帮助，请为该程序加星支持，谢谢。</i>
-
 ### Functions
 
 - Crawl **text** in original and re-tweeted Weibo posts.
@@ -44,5 +40,9 @@ The code has been tested on **Ubuntu 16.04** operating system.
 XD
 
 ![Equivariance](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/JuJingyi.jpg)
+
+<i>Please star this repository if you found its content useful. Thank you very much.</i>
+
+<i>如果该程序对您有帮助，请为该程序加星支持，谢谢。</i>
 
 <i>Last updated: 14/02/2019</i>
