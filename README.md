@@ -33,7 +33,7 @@ The code has been tested on **Ubuntu 16.04** operating system.
 ~$ python WeiboDataCrawling_ALL.py
 ```
 
-3. Weibo data will be saved in pre-specified folder (e.g., WeiboData_JuJingyi_20190119/).
+3. Weibo data will be saved in pre-specified folder (e.g., ```WeiboData_JuJingyi_20190119/```).
 
 ## Motivation
 
