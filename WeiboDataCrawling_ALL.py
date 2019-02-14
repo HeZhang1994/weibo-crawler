@@ -1,5 +1,5 @@
-## Task description:
-## Crawl Weibo data (posted text, jpg/gif images and videos) of one Weibo user.
+## Task description: Crawl Sina Weibo data (i.e., posted text, jpg/gif images and videos) of one Weibo user.
+
 ## Example: Ju Jingyi (https://m.weibo.cn/u/3669102477).
 
 ## Requirement: Python 3.0+.
@@ -214,4 +214,5 @@ for cards in list_cards:
     
     print('Finish crawling Weibo data on ' + str(page_weibo) + '-th page.' + '\n' + 40 * '-' + '\n')
     page_weibo = page_weibo + 1
+
 
