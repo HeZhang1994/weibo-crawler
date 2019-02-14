@@ -1,6 +1,6 @@
 # Sina Weibo Data Crawler
 
-This is a **Python** implementation of crawling Sina Weibo data (e.g., text, images, and videos) of one Weibo user.
+This is a **Python** implementation for crawling Sina Weibo data (e.g., text, images, and videos) of one Weibo user.
 
 The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://www.researchgate.net/publication/305696390_Game_Theoretic_Hypergraph_Matching_for_Multi-source_Image_Correspondences).
 
