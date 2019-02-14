@@ -1,5 +1,5 @@
-## Task description: Crawl Sina Weibo data (i.e., posted text, jpg/gif images and videos) of one Weibo user.
-
+## Task description: 
+## Crawl Sina Weibo data (i.e., posted text, jpg/gif images and videos) of one Weibo user.
 ## Example: Ju Jingyi (https://m.weibo.cn/u/3669102477).
 
 ## Requirement: Python 3.0+.
