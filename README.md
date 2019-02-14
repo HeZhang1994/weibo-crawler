@@ -18,7 +18,7 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://w
 
 ## Environment
 
-The code has been tested on **Ubuntu 16.04** operating system (and should work on Windows/MacOS).
+The code has been tested on **Ubuntu 16.04** operating system (and should work well on Windows/MacOS).
 
 ## Language
 
