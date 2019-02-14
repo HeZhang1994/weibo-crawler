@@ -1,4 +1,4 @@
-# Weibo Data Crawler
+# Sina Weibo Data Crawler
 
 This is a **Python** implementation of crawling Sina Weibo data (e.g., text, images, and videos) of one Weibo user.
 
@@ -43,4 +43,4 @@ XD
 
 ![Equivariance](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/JuJingyi.jpg)
 
-<i>Last updated: 12/02/2019</i>
+<i>Last updated: 14/02/2019</i>
