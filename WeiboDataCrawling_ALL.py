@@ -73,6 +73,7 @@ print('Start Weibo data crawling of user - %s.' % user_name)
 print('Total pages - %d.' % num_page)
 print('\n')
 
+
 ## Part 2 Obtain the list of "cards" information on each page.
 
 ii = 0  # Serial number of pages.
@@ -213,3 +214,4 @@ for cards in list_cards:
     
     print('Finish crawling Weibo data on ' + str(page_weibo) + '-th page.' + '\n' + 40 * '-' + '\n')
     page_weibo = page_weibo + 1
+
