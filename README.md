@@ -41,7 +41,7 @@ XD
 
 ![Equivariance](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/JuJingyi.jpg)
 
-</br>
+<br>
 
 <i>Please star this repository if you found its content useful. Thank you very much.</i>
 
