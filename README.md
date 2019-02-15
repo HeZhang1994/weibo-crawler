@@ -8,7 +8,7 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://w
 
 - Crawl **text** in original and re-tweeted Weibo posts.
 
-- Crawl **jpg/gif images** in original and re-tweeted Weibo posts.
+- Crawl **JPG/GIF images** in original and re-tweeted Weibo posts.
 
 - Crawl **videos** in original and re-tweeted Weibo posts.
 
@@ -28,7 +28,7 @@ The code has been tested on **Ubuntu 16.04** operating system (and should work w
 
 1. Specify settings of targeted Weibo user in ```WeiboDataCrawling_ALL.py``` (see instruction on line 17~22).
 
-2. To crawl **text**, **jpg/gif images** and **videos** data, execute the following command in Terminal.
+2. To crawl **text**, **JPG/GIF images** and **videos** data, execute the following command in Terminal.
 ```bash
 ~$ python WeiboDataCrawling_ALL.py
 ```
@@ -47,4 +47,5 @@ XD
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 14/02/2019</i>
+<i>Last updated: 15/02/2019</i>
+
