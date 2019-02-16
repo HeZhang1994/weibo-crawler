@@ -1,7 +1,7 @@
 # Sina Weibo Data Crawler
 
 [![image](https://img.shields.io/badge/license-MIT-lightgrey.svg)]()
-[![image](https://img.shields.io/badge/platform-linux%20%7C%20macos-lightgrey.svg)]()
+[![image](https://img.shields.io/badge/platform-linux-lightgrey.svg)]()
 [![image](https://img.shields.io/badge/python-3.7-blue.svg)]()
 
 This is a **Python** implementation for crawling Sina Weibo data (e.g., text, images, and videos) of one Weibo user.
