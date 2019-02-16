@@ -1,5 +1,9 @@
 # Sina Weibo Data Crawler
 
+[![image](https://img.shields.io/badge/license-MIT-lightgrey.svg)]()
+[![image](https://img.shields.io/badge/platform-linux%20%7C%20macos-lightgrey.svg)]()
+[![image](https://img.shields.io/badge/python-3.7-blue.svg)]()
+
 This is a **Python** implementation for crawling Sina Weibo data (e.g., text, images, and videos) of one Weibo user.
 
 The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://www.researchgate.net/publication/305696390_Game_Theoretic_Hypergraph_Matching_for_Multi-source_Image_Correspondences).
@@ -11,18 +15,6 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://w
 - Crawl **JPG/GIF images** in original and re-tweeted Weibo posts.
 
 - Crawl **videos** in original and re-tweeted Weibo posts.
-
-### Limitation
-
-- Can not crawl comments of Weibo posts (removed from source code).
-
-## Environment
-
-The code has been tested on **Ubuntu 16.04** operating system (and should work well on Windows/MacOS).
-
-## Language
-
-* __Python 3.7 (3.0+)__
 
 ## Usage
 
@@ -47,5 +39,5 @@ XD
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 15/02/2019</i>
+<i>Last updated: 16/02/2019</i>
 
