@@ -21,7 +21,7 @@ import urllib.request
 # Line 62 --- user_name
 # Line 65 --- num_page
 
-## Part 1 Set request headers of webpage.
+## Part 1 Set request headers of web page.
 
 headers = {
 'Cookie': 'XXXXXXXXXXXXXX',
@@ -32,7 +32,7 @@ headers = {
 }
 
 # The information of "headers" can be obtained as below:
-# -> DevTools (F12) -> "XHR" -> Refresh webpage (F5)
+# -> DevTools (F12) -> "XHR" -> Refresh web page (F5)
 # -> select "getindex?type..." in "Name" -> "Headers"
 # -> "Request Headers" -> ... -> done.
 
@@ -51,7 +51,7 @@ headers = {
 user_url = 'https://m.weibo.cn/api/container/getIndex?type=uid&value=3669102477&containerid=1076033669102477'
 
 # The information of "user_url" can be obtained as below:
-# -> DevTools (F12) -> "XHR" -> Refresh webpage (F5)
+# -> DevTools (F12) -> "XHR" -> Refresh web page (F5)
 # -> select "getindex?type..." in "Name" -> "Headers"
 # -> "General" -> "Request URL" -> done.
 
@@ -143,7 +143,7 @@ for cards in list_cards:
                 ff.write('\n' + 'The ' + str(count_weibo) + '-th weibo\n' + '***  Published on  ' + created_at + '  ***' + '\n')
                 ff.write(text + '\n')
             
-            # 2/3 Save jpg and gif imgae of original and transferred posts.
+            # 2/3 Save jpg and gif image of original and transferred posts.
             if 'bmiddle_pic' in card['mblog']:
                 tag_post = 1  # 1 - original post.
             else:
