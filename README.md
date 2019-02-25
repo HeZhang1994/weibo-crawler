@@ -32,7 +32,7 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://w
 
 XD
 
-![Equivariance](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/JuJingyi.jpg)
+<!--![Equivariance](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/JuJingyi.jpg)-->
 
 <br>
 
@@ -40,5 +40,5 @@ XD
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 23/02/2019</i>
+<i>Last updated: 25/02/2019</i>
 
