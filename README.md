@@ -9,7 +9,7 @@ This is a **Python** implementation of crawling Sina Weibo data (e.g., posted/re
 
 The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627).
 
-## Function
+## Functions
 
 - Crawling **text** in original and re-tweeted Weibo posts.
 
@@ -17,7 +17,7 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://b
 
 - Crawling **videos** in original and re-tweeted Weibo posts.
 
-## Dependency
+## Dependencies
 
 * __shutil__ (1.0.0)
 * __requests__ (2.21.0)
