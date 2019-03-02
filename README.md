@@ -1,4 +1,4 @@
-# Sina Weibo Data Crawler
+# Sina Weibo Crawler
 
 [![image](https://img.shields.io/badge/license-MIT-lightgrey.svg)]()
 [![image](https://img.shields.io/badge/python-3.7-blue.svg)]()
