@@ -19,11 +19,11 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://b
 
 ## Dependency
 
-* __shutil (1.0.0)__
-* __requests (2.21.0)__
-* __json (2.0.9)__
-* __lxml (4.2.5)__
-* __urllib.request (3.7)__
+* __shutil__ (1.0.0)
+* __requests__ (2.21.0)
+* __json__ (2.0.9)
+* __lxml__ (4.2.5)
+* __urllib.request__ (3.7)
 
 ## Usage
 
