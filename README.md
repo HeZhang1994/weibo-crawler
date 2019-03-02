@@ -17,6 +17,14 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://b
 
 - Crawling **videos** in original and re-tweeted Weibo posts.
 
+## Dependency
+
+* __shutil (1.0.0)__
+* __requests (2.21.0)__
+* __json (2.0.9)__
+* __lxml (4.2.5)__
+* __urllib.request (3.7)__
+
 ## Usage
 
 1. Specify user settings in ```WeiboCrawler.py``` (see comments in Part 1 for details).
