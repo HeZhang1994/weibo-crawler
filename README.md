@@ -5,34 +5,25 @@
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
-This is a **Python** implementation for crawling Sina Weibo data (e.g., text, images, and videos) of one Weibo user.
+This is a **Python** implementation of crawling Sina Weibo data (e.g., posted/re-tweeted text, JPG/GIF images, and videos) of one Weibo user.
 
-The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://www.researchgate.net/publication/305696390_Game_Theoretic_Hypergraph_Matching_for_Multi-source_Image_Correspondences).
+The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627).
 
-## Functions
+## Function
 
-- Crawl **text** in original and re-tweeted Weibo posts.
+- Crawling **text** in original and re-tweeted Weibo posts.
 
-- Crawl **JPG/GIF images** in original and re-tweeted Weibo posts.
+- Crawling **JPG/GIF images** in original and re-tweeted Weibo posts.
 
-- Crawl **videos** in original and re-tweeted Weibo posts.
+- Crawling **videos** in original and re-tweeted Weibo posts.
 
 ## Usage
 
-1. Specify settings of targeted Weibo user in ```WeiboDataCrawling_ALL.py``` (see instruction on line 17~22).
+1. Specify user settings in ```WeiboCrawler.py``` (see comments in Part 1 for details).
 
-2. To crawl **text**, **JPG/GIF images** and **videos** data, execute the following command in Terminal.
-```bash
-~$ python WeiboDataCrawling_ALL.py
-```
+2. Run ```WeiboCrawler.py```.
 
-3. Weibo data will be saved in pre-specified folder (e.g., ```WeiboData_JuJingyi_20190119/```).
-
-## Motivation
-
-XD
-
-<!--![Equivariance](https://github.com/HeZhang1994/weibo-data-crawling/blob/master/JuJingyi.jpg)-->
+3. The Weibo data will be saved in the pre-specified folder (e.g., ```WeiboData_2019_JJY/```).
 
 <br>
 
@@ -40,5 +31,5 @@ XD
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 25/02/2019</i>
+<i>Last updated: 02/03/2019</i>
 
