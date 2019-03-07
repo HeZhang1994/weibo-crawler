@@ -27,9 +27,9 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://b
 
 ## Usage
 
-1. Specify user settings in ```WeiboCrawler.py``` (see comments in Part 1 for details).
+1. Specify user settings in ```run_WeiboCrawler.py``` (see comments in Part 1 for details).
 
-2. Run ```WeiboCrawler.py```.
+2. Run ```run_WeiboCrawler.py```.
 
 3. The Weibo data will be saved in the pre-specified folder (e.g., ```WeiboData_2019_JJY/```).
 
@@ -39,5 +39,5 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://b
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 03/03/2019</i>
+<i>Last updated: 07/03/2019</i>
 
