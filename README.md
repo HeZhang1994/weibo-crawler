@@ -36,5 +36,5 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://b
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 15/03/2019</i>
+<i>Last updated: 16/03/2019</i>
 
