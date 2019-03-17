@@ -7,7 +7,7 @@
 
 This is a **Python** implementation of crawling Sina Weibo data (e.g., posted/re-tweeted text, JPG/GIF images, and videos) of one Weibo user.
 
-The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627).
+The source code `SourceCode_weibocrawler.py` is forked from [here](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627).
 
 ## Functions
 
@@ -24,11 +24,11 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://b
 
 ## Usage
 
-1. Specify user settings (e.g., ```WEBSITE_HEADERS```, ```USER_URL```, and ```PAGE_AMOUNT```) in the code (see comments for details).
+1. Specify user settings (e.g., `WEBSITE_HEADERS`, `USER_URL`, and `PAGE_AMOUNT`) in the code (see comments for details).
 
-2. Run ```run_WeiboCrawler.py``` to crawl Weibo data.
+2. Run `run_WeiboCrawler.py` to crawl Weibo data.
 
-3. The Weibo data will be saved in the pre-specified folder (e.g., ```WeiboData_JJY/```).
+3. The Weibo data will be saved in the pre-specified folder (e.g., `WeiboData_JJY/`).
 
 <br>
 
