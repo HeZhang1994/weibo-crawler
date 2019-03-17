@@ -11,11 +11,11 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://b
 
 ## Functions
 
-- Crawling **text** in original and re-tweeted Weibo posts.
+- Crawling **text** in the original and re-tweeted Weibo posts.
 
-- Crawling **JPG/GIF images** in original and re-tweeted Weibo posts.
+- Crawling **JPG/GIF images** in the original and re-tweeted Weibo posts.
 
-- Crawling **videos** in original and re-tweeted Weibo posts.
+- Crawling **videos** in the original and re-tweeted Weibo posts.
 
 ## Dependencies
 
@@ -26,7 +26,7 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://b
 
 1. Specify user settings in ```run_WeiboCrawler.py``` (see code comments for details).
 
-2. Run ```run_WeiboCrawler.py```.
+2. Run ```run_WeiboCrawler.py``` to crawl Weibo data.
 
 3. The Weibo data will be saved in the pre-specified folder (e.g., ```WeiboData_JJY/```).
 
@@ -36,5 +36,5 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://b
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。</i>
 
-<i>Last updated: 16/03/2019</i>
+<i>Last updated: 17/03/2019</i>
 
