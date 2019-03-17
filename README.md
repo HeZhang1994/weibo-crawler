@@ -24,7 +24,7 @@ The source code ```SourceCode_weibocrawler.py``` is forked from [here](https://b
 
 ## Usage
 
-1. Specify user settings in ```run_WeiboCrawler.py``` (see code comments for details).
+1. Specify user settings (e.g., ```WEBSITE_HEADERS```, ```USER_URL```, and ```PAGE_AMOUNT```) in the code (see comments for details).
 
 2. Run ```run_WeiboCrawler.py``` to crawl Weibo data.
 
