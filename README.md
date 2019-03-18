@@ -24,11 +24,11 @@ Many thanks to the [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00X
 
 ## Usage
 
-1. Specify user settings (e.g., `WEBSITE_HEADERS`, `USER_URL`, and `PAGE_AMOUNT`) in the code (see comments for details).
+1. Specify user settings (e.g., `WEBSITE_HEADERS`, `PAGE_AMOUNT`, etc.) in the code (see comments).
 
 2. Run `run_WeiboCrawler.py` to crawl Weibo data.
 
-3. The Weibo data will be saved in the pre-specified folder (e.g., `WeiboData_JJY/`).
+3. The Weibo data will be saved in the pre-specified folder.
 
 <br>
 
