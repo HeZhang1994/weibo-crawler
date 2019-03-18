@@ -7,7 +7,7 @@
 
 This is a **Python** implementation of crawling Sina Weibo data (e.g., posted/re-tweeted text, JPG/GIF images, and videos) of one Weibo user.
 
-Thanks a lot for the source code `SourceCode_weibocrawler.py` that is forked from [here](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627).
+Thanks a lot for the source code `SourceCode_weibocrawler.py` released by [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627).
 
 ## Functions
 
