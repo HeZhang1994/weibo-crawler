@@ -11,11 +11,11 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 ## Functions
 
-- Crawling **text** in the original and re-tweeted Weibo posts.
+- Crawling the **text** in the original and re-tweeted Weibo posts.
 
-- Crawling **JPG/GIF images** in the original and re-tweeted Weibo posts.
+- Crawling the **JPG/GIF images** in the original and re-tweeted Weibo posts.
 
-- Crawling **videos** in the original and re-tweeted Weibo posts.
+- Crawling the **videos** in the original and re-tweeted Weibo posts.
 
 ## Dependencies
 
@@ -24,9 +24,9 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 ## Usage
 
-1. Specify user settings (e.g., `WEBSITE_HEADERS`, `PAGE_AMOUNT`, etc.) in the code (see comments).
+1. Specify user settings (`WEBSITE_HEADERS`, `PAGE_AMOUNT`, etc.) in the code (see comments).
 
-2. Run `run_WeiboCrawler.py` to crawl Weibo data.
+2. Run `run_WeiboCrawler.py` to crawl Weibo data of target Weibo user.
 
 3. The Weibo data will be saved in the pre-specified folder.
 
@@ -36,4 +36,4 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。^_^</i>
 
-<i>Last updated: 18/03/2019</i>
+<i>Last updated: 20/03/2019</i>
