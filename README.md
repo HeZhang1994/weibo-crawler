@@ -28,7 +28,11 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 2. Run `run_WeiboCrawler.py` to crawl Weibo data of target Weibo user.
 
-3. The Weibo data will be saved in the pre-specified folder.
+3. The Weibo data will be saved in the pre-specified folder (e.g., `/WeiboData_JJY`).
+
+  1. The text of posts will be saved in a TXT file (see `/WeiboData_JJY/JJY_Weibo_PostRecords.txt` as an example).
+  
+  2. The images and videos of posts will be saved in separated folders.
 
 <br>
 
@@ -36,4 +40,4 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。^_^</i>
 
-<i>Last updated: 20/03/2019</i>
+<i>Last updated: 25/03/2019</i>
