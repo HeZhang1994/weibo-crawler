@@ -30,9 +30,9 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 3. The Weibo data will be saved in the pre-specified folder (e.g., `/WeiboData_LYF`).
 
-  1. The text of posts will be saved in a TXT file (see `/WeiboData_LYF/LYF_Weibo_PostRecords.txt` as an example).
+    1. The text of posts will be saved in a TXT file (see `/WeiboData_LYF/LYF_Weibo_PostRecords.txt` as an example).
   
-  2. The images and videos of posts will be saved in separated folders.
+    2. The images and videos of posts will be saved in separated folders.
 
 <br>
 
