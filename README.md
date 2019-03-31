@@ -1,6 +1,6 @@
 # Sina Weibo Crawler
 
-[![image](https://github.com/HeZhang1994/hypergraph-matching/blob/master/LICENSE)](https://github.com/HeZhang1994/weibo-crawler/blob/master/LICENSE)
+[![image](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/HeZhang1994/weibo-crawler/blob/master/LICENSE)
 [![image](https://img.shields.io/badge/python-3.7-blue.svg)]()
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
