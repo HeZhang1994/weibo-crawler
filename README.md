@@ -1,6 +1,6 @@
 # Sina Weibo Crawler
 
-[![image](https://img.shields.io/badge/license-MIT-lightgrey.svg)]()
+[![image](https://github.com/HeZhang1994/hypergraph-matching/blob/master/LICENSE)](https://github.com/HeZhang1994/weibo-crawler/blob/master/LICENSE)
 [![image](https://img.shields.io/badge/python-3.7-blue.svg)]()
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
@@ -40,4 +40,4 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。^_^</i>
 
-<i>Last updated: 27/03/2019</i>
+<i>Last updated: 31/03/2019</i>
