@@ -82,7 +82,7 @@ while ii_page < PAGE_AMOUNT:
     ii_page += 1
     print('Start crawling \'cards\' on page %d/%d.' % (ii_page, PAGE_AMOUNT))
 
-    url = USER_URL + "&page=" + str(ii_page)
+    url = USER_URL + '&page=' + str(ii_page)
     response = requests.get(url, headers=WEBSITE_HEADERS)
     ob_json = json.loads(response.text)  # ob_json <'dict'>
     list_cards.append(ob_json['data']['cards'])  # ob_json['data']['cards'] <'list'>
