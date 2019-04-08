@@ -15,7 +15,7 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 - Crawling the **JPG/GIF images** in the original and re-tweeted Weibo posts.
 
-- Crawling the **videos** in the original and re-tweeted Weibo posts.
+- Crawling the **videos** in the original and ~~re-tweeted~~ Weibo posts.
 
 ## Dependencies
 
@@ -40,4 +40,4 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。^_^</i>
 
-<i>Last updated: 07/04/2019</i>
+<i>Last updated: 09/04/2019</i>
