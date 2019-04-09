@@ -49,8 +49,8 @@ print('\n' + 40 * '=' + '\n' + 'Crawling Weibo data of user - ' + USER_NAME + '\
 
 PAGE_AMOUNT = 3  # The amount of web pages for crawling.
 # Note:
-#     The number of posts on one web page is 11.
-#     The 'PAGE_AMOUNT' is set to be greater than total posts/11.
+#     The number of posts on one web page is 12.
+#     The 'PAGE_AMOUNT' is set to be greater than total posts/12.
 
 NAME_FOLDER = 'WeiboData_'
 NAME_FILE_TEXT = '_Weibo_PostRecords.txt'
