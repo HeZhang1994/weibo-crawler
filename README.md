@@ -26,7 +26,7 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 1. Specify user settings (`WEBSITE_HEADERS`, `PAGE_AMOUNT`, etc.) in the code (see comments).
 
-> Note: The `Cookie` in `WEBSITE_HEADERS` must be correctly specified!
+    Note: The `Cookie` in `WEBSITE_HEADERS` must be correctly specified!
 
 2. Run `run_WeiboCrawler.py` to crawl Weibo data of target Weibo user.
 
