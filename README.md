@@ -5,6 +5,8 @@
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
+[*English Version*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README-cn.md)
+
 This is a **Python** implementation of crawling Sina Weibo data (e.g., text, JPG/GIF images, and videos) of one Weibo user.
 
 Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627) for providing the source code `SourceCode_weibocrawler.py`.
@@ -32,7 +34,7 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
     1. The text of posts will be saved in a TXT file (see `/WeiboData_JJY/JJY_Weibo_PostRecords.txt` as an example).
 
-    2. The images and videos of posts will be saved in separated folders.
+    2. The images and videos of posts will be saved in separated sub-folders.
 
 <br>
 
@@ -40,4 +42,4 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。^_^</i>
 
-<i>Last updated: 12/04/2019</i>
+<i>Last updated: 15/04/2019</i>
