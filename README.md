@@ -36,7 +36,6 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
     2. The images and videos of posts will be saved in separated sub-folders.
 
-
 <br>
 
 <i>Please star this repository if you found its content useful. Thank you very much. ^_^</i>
