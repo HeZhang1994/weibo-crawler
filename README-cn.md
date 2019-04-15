@@ -24,7 +24,7 @@
 * __requests 2.21.0__
 * __lxml 4.2.5__
 
-## 使用
+## 使用方法
 
 1. 参考程序注释，设置爬虫的参数（`WEBSITE_HEADERS`，`PAGE_AMOUNT`，等）。
 
