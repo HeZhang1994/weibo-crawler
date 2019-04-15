@@ -7,6 +7,8 @@
 
 [*English Version*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README-cn.md)
 
+[Important Notification] A new version that can crawl live photo as GIF/video will be released before 16th April.
+
 This is a **Python** implementation of crawling Sina Weibo data (e.g., text, JPG/GIF images, and videos) of one Weibo user.
 
 Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627) for providing the source code `SourceCode_weibocrawler.py`.
