@@ -26,7 +26,7 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 * __requests 2.21.0__
 * __lxml 4.2.5__
 
-The following dependencies are used for crawling live photos.
+The following dependencies are used in crawling **live photos**.
 
 * __cv2 4.1.0__
 * __imageio 2.4.1__
