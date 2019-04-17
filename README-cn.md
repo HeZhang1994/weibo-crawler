@@ -7,7 +7,7 @@
 
 [*English Version*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README-cn.md)
 
-基于**Python**实现的新浪微博爬虫，用于爬取某一用户的微博数据（文本，J图片，实况照片和视频）。
+基于**Python**实现的新浪微博爬虫，用于爬取某一用户的微博数据（文本，JPG/GIF图片，实况照片和视频）。
 
 特别鸣谢[Python中文社区](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627)提供的原始代码`SourceCode_weibocrawler.py`。
 
