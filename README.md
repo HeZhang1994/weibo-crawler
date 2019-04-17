@@ -7,7 +7,7 @@
 
 [*English Version*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README-cn.md)
 
-This is a **Python** implementation of crawling Sina Weibo data (e.g., text, JPG/GIF images, live photos, and videos) of one Weibo user.
+This is a **Python** implementation of crawling Weibo data (e.g., text, JPG/GIF images, live photos, and videos) of one user.
 
 Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627) for providing the source code `SourceCode_weibocrawler.py`.
 
