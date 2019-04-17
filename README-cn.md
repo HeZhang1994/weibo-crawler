@@ -7,7 +7,7 @@
 
 [*English Version*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README-cn.md)
 
-基于**Python**实现的新浪微博爬虫，用于爬取某用户的微博数据（文本，JPG/GIF图片和视频）。
+基于**Python**实现的新浪微博爬虫，用于爬取某一用户的微博数据（文本，J图片，实况照片和视频）。
 
 特别鸣谢[Python中文社区](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627)提供的原始代码`SourceCode_weibocrawler.py`。
 
@@ -19,25 +19,33 @@
 
 - 爬取原创和转发微博中的**视频**。
 
+- [**新!**] 爬取原创或转发微博中的**实况照片**（保存为GIF图片或MOV视频）。
+
 ## 依赖项
 
 * __requests 2.21.0__
 * __lxml 4.2.5__
 
+以下依赖项在爬取实况照片中使用到。
+
+* __cv2 4.1.0__
+* __imageio 2.4.1__
+* __PIL 5.3.0__
+
 ## 使用方法
 
 1. 参考程序注释，设置爬虫的参数（`WEBSITE_HEADERS`，`PAGE_AMOUNT`，等）。
 
-2. 运行`run_WeiboCrawler.py`程序文件，爬取指定用户的微博数据。
+2. 运行`run_WeiboCrawler_v1.py`以爬取指定用户的微博数据（**不包含**实况照片）。
 
-3. 爬取的数据将会保存在设定的文件目录下（例如，`/WeiboData_JJY`）。
+3. 运行`run_WeiboCrawler_v2.py`以爬取指定用户的微博数据（**包含**实况照片）。
 
-    1. 爬取的文本将会保存于TXT文件（例如，`/WeiboData_JJY/JJY_Weibo_PostRecords.txt`）。
+3. 微博数据将会保存在预设定的文件夹（例如，`JJY_WeiboData_vn/`）。
 
-    2. 爬取的图片和视频将会保存于单独的子文件夹。
+    1. 文本将会保存于TXT文件（例如，`JJY_WeiboPost_Records.txt`）。
+
+    2. 图片、照片和视频将会保存于单独的子文件夹。
 
 <br>
 
 <i>如果该程序对您有帮助，请为该程序加星支持哈，非常感谢。^_^</i>
-
-<i>最后更新：15/04/2019</i>
