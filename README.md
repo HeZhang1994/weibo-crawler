@@ -38,11 +38,11 @@ The following dependencies are used for crawling live photos.
 
 2. Run `run_WeiboCrawler_v1.py` to crawl Weibo data of target Weibo user **without** live photos.
 
-3. Run `run_WeiboCrawler_v2.py` to crawl Weibo data of target Weibo user **with** live photos.
+3. [**New!**] Run `run_WeiboCrawler_v2.py` to crawl Weibo data of target Weibo user **with** live photos.
 
-4. The Weibo data will be saved in the pre-specified folder (e.g., `/WeiboData_JJY`).
+4. The Weibo data will be saved in the pre-specified folder (e.g., `JJY_WeiboData_vn/`).
 
-    1. The text of posts will be saved in a TXT file (see `/WeiboData_JJY/JJY_Weibo_PostRecords.txt` as an example).
+    1. The text of posts will be saved in a TXT file (see `JJY_WeiboData_vn/JJY_WeiboPost_Records.txt` as an example).
 
     2. The images and videos of posts will be saved in separated sub-folders.
 
