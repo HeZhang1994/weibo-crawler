@@ -44,7 +44,7 @@ The following dependencies are used in crawling **live photos**.
 
     - The text of posts will be saved in a TXT file (see `JJY_WeiboPost_Records.txt` as an example).
 
-    - The images and videos of posts will be saved in separated sub-folders.
+    - The images， photos, and videos of posts will be saved in separated sub-folders.
 
 <br>
 
