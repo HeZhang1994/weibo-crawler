@@ -42,7 +42,7 @@ The following dependencies are used in crawling **live photos**.
 
 4. The Weibo data will be saved in the pre-specified folder (e.g., `JJY_WeiboData_vn/`).
 
-    - The text of posts will be saved in a TXT file (see `JJY_WeiboData_vn/JJY_WeiboPost_Records.txt` as an example).
+    - The text of posts will be saved in a TXT file (see `JJY_WeiboPost_Records.txt` as an example).
 
     - The images and videos of posts will be saved in separated sub-folders.
 
