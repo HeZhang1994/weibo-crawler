@@ -1,4 +1,4 @@
-# Sina Weibo Crawler
+# Sina Weibo Crawler - Under final development (expected online time: 2019.04.18)
 
 [![image](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/HeZhang1994/weibo-crawler/blob/master/LICENSE)
 [![image](https://img.shields.io/badge/python-3.7-blue.svg)]()
