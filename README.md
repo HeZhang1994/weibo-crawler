@@ -13,13 +13,13 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 ## Functions
 
-- Crawling the **text** (short or long) in original and retweeted Weibo posts.
+- Crawling the short or long **text** in original and retweeted Weibo posts.
 
-- Crawling the **JPG/GIF images** (large or small) in original and retweeted Weibo posts.
+- Crawling the large (preferred) or small **JPG/GIF images** in original and retweeted Weibo posts.
 
-- **[New!]** Crawling the **live photos** (as MOV videos or GIF images) in original and retweeted Weibo posts.
+- Crawling the **live photos** (as MOV videos and/or GIF images) in original and retweeted Weibo posts.
 
-- Crawling the **videos** (HD or SD) in original and retweeted Weibo posts.
+- Crawling the HD (preferred) or SD **videos** in original and retweeted Weibo posts.
 
 ## Dependencies
 
