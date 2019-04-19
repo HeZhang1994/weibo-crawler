@@ -27,7 +27,7 @@ from pyCrawler_function import crawl_video
 
 # 1.1 Set the request header of Weibo (important).
 WEBSITE_HEADERS = {
-    'Cookie': '_T_WM=9d806bdcd07d9ad7bb26ae23d94b8553; SCF=AuZmy8W7MgXGJINni_v0fNnE7CAh4QeGplsbaEBVe20UBT8HZ91dqgofOfT1a1fi0OHdLVUy7OW6WGmmE0VQIXA.; SUB=_2A25xsaJzDeRhGeBH7FcV8yzPzD6IHXVTXc47rDV6PUJbkdBeLRbRkW1NQaUxHBnd5-RcycV101Gze6TEe5U_MTn8; SUHB=0pHxkqqBgd6rn7; WEIBOCN_WM=3333_2001; WEIBOCN_FROM=1110006030; MLOGIN=1; XSRF-TOKEN=0f52ee; M_WEIBOCN_PARAMS=luicode%3D10000011%26lfid%3D1076033669102477%26fid%3D1005053669102477%26uicode%3D10000011',
+    'Cookie': 'XXXXXXXXXXXXXXXX',
     'Host': 'm.weibo.cn',
     'Referer': 'https://m.weibo.cn/u/3669102477',
     'Upgrade-Insecure-Requests': '1',
