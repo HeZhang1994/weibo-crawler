@@ -7,7 +7,7 @@
 
 [*English Version*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README-cn.md)
 
-This is a **Python** implementation of crawling Weibo data (e.g., text, images, live photos, and videos) of one Sina Weibo user from https://m.weibo.cn/. It simulates user login with **session** (username and password).
+This is a **Python** implementation of crawling Weibo data (e.g., text, images, live photos, and videos) of one Sina Weibo user from [Weibo Mobile Client](https://m.weibo.cn). It simulates user login with **session** (username and password).
 
 Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627) for providing the source code `SourceCode_weibocrawler.py`.
 
@@ -17,7 +17,7 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 - Crawling the large (preferred) or small **JPG/GIF images** in original and retweeted Weibo posts.
 
-- Crawling the **live photos** (as MOV videos and/or GIF images) in original and retweeted Weibo posts.
+- Crawling the **live photos** (as JPG images, MOV videos and/or GIF images) in original and retweeted Weibo posts.
 
 - Crawling the HD (preferred) or SD **videos** in original and retweeted Weibo posts.
 
@@ -47,18 +47,20 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 ### Run
 
-1. Run `run_WeiboCrawler.py` to crawl Weibo data of target Sina Weibo user.
+1. Run `run_WeiboCrawler.py` to crawl Weibo data of one Sina Weibo user.
 
-2. See `Log_run_WeiboCrawler.txt` as an example of log information.
+2. See `Log_run_WeiboCrawler.txt` for log information of running this code.
 
 ### Results
 
 1. The Weibo data will be saved in the pre-specified folder (e.g., `JJY_WeiboData/`).
 
-2. The text of Weibo posts will be saved in a TXT file (e.g., `JJY_WeiboData/JJY_WeiboPost_Records.txt`).
+2. The text of Weibo posts will be saved in the TXT file (e.g., `JJY_WeiboData/JJY_WeiboPost_Records.txt`).
 
-3. The JPG/GIF images, live photos, and videos will be saved in sub-folders (e.g., `1/`, `1_livephoto/`, `1_video/`).
+3. The images, photos, and videos will be saved in sub-folders (e.g., `1/`, `1_livephoto/`, `1_video/`).
 
 <br>
+
+<i>Please report an issue if you have any problem using this repository, I will respond ASAP.</i>
 
 <i>Please star this repository if you found its content useful. Thank you very much. ^_^</i>
