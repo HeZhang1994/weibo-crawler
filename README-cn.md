@@ -37,7 +37,7 @@
 
 3. 微博数据将会保存在预设定的文件夹（例如，`JJY_WeiboData/`）。
 
-    1. 文本将会保存于TXT文件（例如，`JJY_WeiboPost_Records.txt`）。
+    1. 文本将会保存于TXT文件（例如，`JJY_WeiboData/JJY_WeiboPost_Records.txt`）。
 
     2. 图片、照片和视频将会保存于单独的子文件夹。
 
