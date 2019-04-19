@@ -31,15 +31,33 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 ## Usage
 
-1. Specify user settings (`WEBSITE_HEADERS`, `USER_URL`, `PAGE_AMOUNT`, etc.) in the code (see comments).
+### User Settings
 
-2. Run `run_WeiboCrawler.py` to crawl Weibo data of one user (see `Log_run_WeiboCrawler.txt` for log information).
+1. Set `S_DATA` and `S_HEADER` of session for simulating user login (see comments for obtaining those information).
 
-3. The Weibo data will be saved in the pre-specified folder (e.g., `JJY_WeiboData/`).
+2. Set `USER_URL` of target Sina Weibo user (see comments for obtaining this information).
 
-    - The text of will be saved in a TXT file (see `JJY_WeiboData/JJY_WeiboPost_Records.txt` as an example).
+3. Set `PAGE_AMOUNT` the amount of pages for crawling. It is greater than 10% of the amount of user's Weibo posts.
 
-    - The images, photos, and videos will be saved in separated sub-folders.
+4. Set `PATH_FOLDER` and `PATH_FILE_TXT` for saving Weibo data.
+
+5. Select the type of Weibo data for crawiling (`IF_IMAGE`, `IF_PHOTO`, and `IF_VIDEO`). '0' - No, '1' - Yes.
+
+6. Set `IF_LIVE2GIF = 1` if live photos (MOV videos) need to be converted to GIF images.
+
+### Run
+
+1. Run `run_WeiboCrawler.py` to crawl Weibo data of target Sina Weibo user.
+
+2. See `Log_run_WeiboCrawler.txt` as an example of log information.
+
+### Results
+
+1. The Weibo data will be saved in the pre-specified folder (e.g., `JJY_WeiboData/`).
+
+2. The text of Weibo posts will be saved in a TXT file (e.g., `JJY_WeiboData/JJY_WeiboPost_Records.txt`).
+
+3. The JPG/GIF images, live photos, and videos will be saved in sub-folders (e.g., `1/`, `1_livephoto/`, `1_video/`).
 
 <br>
 
