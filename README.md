@@ -17,7 +17,7 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 - Crawling the large (preferred) or small **JPG/GIF images** in original and retweeted Weibo posts.
 
-- Crawling the **live photos** (as JPG images, MOV videos and/or GIF images) in original and retweeted Weibo posts.
+- [**New!**] Crawling the **live photos** (as JPG images, MOV videos, and/or GIF images) in original and retweeted Weibo posts.
 
 - Crawling the HD (preferred) or SD **videos** in original and retweeted Weibo posts.
 
@@ -41,7 +41,7 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 4. Set `PATH_FOLDER` and `PATH_FILE_TXT` for saving Weibo data.
 
-5. Select the type of Weibo data for crawiling (`IF_IMAGE`, `IF_PHOTO`, and `IF_VIDEO`). '0' - No, '1' - Yes.
+5. Select the type of Weibo data for crawiling (`IF_IMAGE`, `IF_PHOTO`, and `IF_VIDEO`). 0 - Not crawl, 1 - Crawl.
 
 6. Set `IF_LIVE2GIF = 1` if live photos (MOV videos) need to be converted to GIF images.
 
@@ -57,11 +57,10 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 2. The text of Weibo posts will be saved in the TXT file (e.g., `JJY_WeiboData/JJY_WeiboPost_Records.txt`).
 
-3. The images, photos, and videos will be saved in sub-folders (e.g., `1/`, `1_livephoto/`, `1_video/`).
+3. The images, photos, and videos will be saved in sub-folders (e.g., `1/`, `1_livephoto/`, and `1_video/`).
 
 <br>
 
-<i>Please report an issue if you have any problem using this repository, I will respond ASAP.</i>
+<i>Please report an issue if you have any question about this repository, I will respond ASAP.</i>
 
 <i>Please star this repository if you found its content useful. Thank you very much. ^_^</i>
-a
