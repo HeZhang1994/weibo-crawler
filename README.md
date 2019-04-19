@@ -37,7 +37,7 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 3. The Weibo data will be saved in the pre-specified folder (e.g., `JJY_WeiboData/`).
 
-    - The text of will be saved in a TXT file (see `JJY_WeiboPost_Records.txt` as an example).
+    - The text of will be saved in a TXT file (see `JJY_WeiboData/JJY_WeiboPost_Records.txt` as an example).
 
     - The images, photos, and videos will be saved in separated sub-folders.
 
