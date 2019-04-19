@@ -11,6 +11,8 @@ This is a **Python** implementation of crawling Sina Weibo data (e.g., text, ima
 
 Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627) for providing the source code `SourceCode_weibocrawler.py`.
 
+Last update: (19th April 2019) A complete version is released!
+
 ## Functions
 
 - Crawling the short or long **text** in original and retweeted Weibo posts.
