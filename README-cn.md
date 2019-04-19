@@ -11,6 +11,8 @@
 
 特别鸣谢[Python中文社区](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627)提供的原始代码`SourceCode_weibocrawler.py`。
 
+最后更新：（2019年4月19日）完整版发布！
+
 ## 功能
 
 - 爬取原创和转发微博中的短或长**文本**。
