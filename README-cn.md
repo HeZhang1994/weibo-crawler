@@ -37,11 +37,11 @@
 
 2. 设置目标新浪微博用户的`USER_URL`（获取信息参见程序注释）。
 
-3. 设置爬取的总页数`PAGE_AMOUNT`。该参数大于用户微博总数的10%。
+3. 设置爬取的总页数`PAGE_AMOUNT`，该参数大于用户微博总数的10%。
 
 4. 设置保存微博数据的`PATH_FOLDER`和`PATH_FILE_TXT`。
 
-5. 选择爬取的微博数据类型（`IF_IMAGE`、`IF_PHOTO`和`IF_VIDEO`）。 0 - 不爬取, 1 - 爬取.
+5. 选择爬取的微博数据类型（`IF_IMAGE`、`IF_PHOTO`和`IF_VIDEO`）。 0 - 不爬取, 1 - 爬取。
 
 6. 设置`IF_LIVE2GIF = 1`如果需要将实况照片（MOV视频）转换为GIF图片。
 
