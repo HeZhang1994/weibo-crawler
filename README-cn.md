@@ -37,21 +37,21 @@
 
 2. 设置目标新浪微博用户的`USER_URL`（获取信息参见程序注释）。
 
-3. 设置爬取的总页数`PAGE_AMOUNT`，该参数大于用户微博总数的10%。
+3. 设置`PAGE_AMOUNT`（爬取的总页数）大于用户微博总数的10%。
 
 4. 设置保存微博数据的`PATH_FOLDER`和`PATH_FILE_TXT`。
 
 5. 选择爬取的微博数据类型（`IF_IMAGE`、`IF_PHOTO`和`IF_VIDEO`）。 0 - 不爬取, 1 - 爬取。
 
-6. 设置`IF_LIVE2GIF = 1`如果需要将实况照片（MOV视频）转换为GIF图片。
+6. 如果需要将实况照片（MOV视频）转换为GIF图片，设置`IF_LIVE2GIF = 1`。
 
 7. 设置爬虫的`TIME_DELAY`以避免`ConnectionError: ('Connection aborted.', OSError(“(104, 'ECONNRESET')”,))`。
 
 ### 运行
 
-1. 运行`run_WeiboCrawler_v1.py`以爬取某新浪微博用户的微博数据。
+1. 运行`run_WeiboCrawler_v1.py`，以爬取某新浪微博用户的微博数据。
 
-2. 程序运行的日志信息参见`Log_run_WeiboCrawler.txt`。
+2. 运行该程序的日志信息参见`Log_run_WeiboCrawler.txt`。
 
 ### 结果
 
@@ -63,9 +63,9 @@
 
 ## 建议
 
-- 设置`TIME_DELAY`为较大值（例如，`TIME_DELAY = 10`）将会极大地避免`ConnectionError 104`。
+- 设置`TIME_DELAY`为较大值（例如，`TIME_DELAY = 10`）将会避免`ConnectionError 104`。
 
-- 多次重复爬取数据的`try`和`except`程序将会极大地减少爬取失败次数。
+- 重复多次爬取数据的`try`和`except`程序将会避免未知的爬取失败。
 
 <br>
 
