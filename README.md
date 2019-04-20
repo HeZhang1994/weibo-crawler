@@ -61,6 +61,12 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 3. The images, photos, and videos will be saved in sub-folders (e.g., `1/`, `1_livephoto/`, and `1_video/`).
 
+## Suggestions
+
+- Set `TIME_DELAY` to larger value (e.g., `TIME_DELAY = 10`) will greatly avoid `ConnectionError 104`.
+
+- Repeat several times of the `try` and `except` code for crawling data will greatly reduce crawling failures.
+
 <br>
 
 <i>Please report an issue if you have any question about this repository, I will respond ASAP.</i>
