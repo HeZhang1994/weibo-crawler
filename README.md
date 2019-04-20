@@ -37,11 +37,11 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 2. Set `USER_URL` of target Sina Weibo user (see comments for obtaining this information).
 
-3. Set `PAGE_AMOUNT` the amount of pages for crawling. It is greater than 10% of the amount of user's Weibo posts.
+3. Set `PAGE_AMOUNT` the amount of pages for crawling, which is greater than 10% of the amount of user's Weibo posts.
 
 4. Set `PATH_FOLDER` and `PATH_FILE_TXT` for saving Weibo data.
 
-5. Select the type of Weibo data for crawiling (`IF_IMAGE`, `IF_PHOTO`, and `IF_VIDEO`). 0 - Not crawl, 1 - Crawl.
+5. Select the type of Weibo data for crawling (`IF_IMAGE`, `IF_PHOTO`, and `IF_VIDEO`). 0 - Not crawl, 1 - Crawl.
 
 6. Set `IF_LIVE2GIF = 1` if live photos (MOV videos) need to be converted to GIF images.
 
