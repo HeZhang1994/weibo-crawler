@@ -45,6 +45,8 @@
 
 6. 设置`IF_LIVE2GIF = 1`如果需要将实况照片（MOV视频）转换为GIF图片。
 
+7. 设置爬虫的`TIME_DELAY`以避免`ConnectionError: ('Connection aborted.', OSError(“(104, 'ECONNRESET')”,))`。
+
 ### 运行
 
 1. 运行`run_WeiboCrawler_v1.py`以爬取某新浪微博用户的微博数据。
