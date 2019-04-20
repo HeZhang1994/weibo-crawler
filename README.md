@@ -45,6 +45,8 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 6. Set `IF_LIVE2GIF = 1` if live photos (MOV videos) need to be converted to GIF images.
 
+7. Set `TIME_DELAY` of crawler to aovid `ConnectionError: ('Connection aborted.', OSError(“(104, 'ECONNRESET')”,))`.
+
 ### Run
 
 1. Run `run_WeiboCrawler.py` to crawl Weibo data of one Sina Weibo user.
