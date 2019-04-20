@@ -13,7 +13,7 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 ## Functions
 
-- Crawling the short or long **text** in original and retweeted Weibo posts.
+- Crawling the short **text** in original and retweeted Weibo posts.
 
 - Crawling the large (preferred) or small **JPG/GIF images** in original and retweeted Weibo posts.
 
@@ -60,12 +60,6 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 2. The text of Weibo posts will be saved in the TXT file (e.g., `JJY_WeiboData/JJY_WeiboPost_Records.txt`).
 
 3. The images, photos, and videos will be saved in sub-folders (e.g., `1/`, `1_livephoto/`, and `1_video/`).
-
-## Suggestions
-
-- Set `TIME_DELAY` to larger value (e.g., `TIME_DELAY = 10`) will avoid `ConnectionError 104`.
-
-- Repeat several times of the `try` and `except` code for crawling data will avoid unknown crawling failure.
 
 <br>
 
