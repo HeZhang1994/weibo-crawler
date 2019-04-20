@@ -37,7 +37,7 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 2. Set `USER_URL` of target Sina Weibo user (see comments for obtaining this information).
 
-3. Set `PAGE_AMOUNT` the amount of pages for crawling, which is greater than 10% of the amount of user's Weibo posts.
+3. Set `PAGE_AMOUNT` (the amount of pages for crawling) to be greater than 10% of the amount of user's Weibo posts.
 
 4. Set `PATH_FOLDER` and `PATH_FILE_TXT` for saving Weibo data.
 
@@ -63,9 +63,9 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 ## Suggestions
 
-- Set `TIME_DELAY` to larger value (e.g., `TIME_DELAY = 10`) will greatly avoid `ConnectionError 104`.
+- Set `TIME_DELAY` to larger value (e.g., `TIME_DELAY = 10`) will avoid `ConnectionError 104`.
 
-- Repeat several times of the `try` and `except` code for crawling data will greatly reduce crawling failures.
+- Repeat several times of the `try` and `except` code for crawling data will avoid unknown crawling failure.
 
 <br>
 
