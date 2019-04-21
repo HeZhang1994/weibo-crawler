@@ -17,7 +17,7 @@
 
 - 爬取原创和转发微博中的大（优先）或小**JPG/GIF图片**。
 
-- [**新!**] 爬取原创和转发微博中的**实况照片**（为JPG图片、MOV视频和/或GIF图片）。
+- [**新!**] 爬取原创和转发微博中的**实况照片**（存为JPG图片、MOV视频和/或GIF图片）。
 
 - 爬取原创和转发微博中的高清（优先）或标清**视频**。
 
@@ -33,23 +33,29 @@
 
 ### 用户设置
 
-1. 设置session的`S_DATA`和`S_HEADER`以模拟用户登录（获取信息参见程序注释）。
+1. 设置session的`S_DATA`和`S_HEADER`以模拟用户登录（详细信息参见注释）。
 
-2. 设置目标新浪微博用户的`USER_URL`（获取信息参见程序注释）。
+2. 设置目标新浪微博用户的`USER_URL`（详细信息参见注释）。
 
-3. 设置`PAGE_AMOUNT`（爬取的总页数）大于用户微博总数的10%。
+3. 设置爬取的总页数`PAGE_AMOUNT`（详细信息参见注释）。
 
-4. 设置保存微博数据的`PATH_FOLDER`和`PATH_FILE_TXT`。
+4. 设置保存微博数据的路径`PATH_FOLDER`和文本文件`PATH_FILE_TXT`。
 
-5. 选择爬取的微博数据类型（`IF_IMAGE`、`IF_PHOTO`和`IF_VIDEO`）。 0 - 不爬取, 1 - 爬取。
+5. 设置爬取的微博数据类型（`IF_IMAGE`、`IF_PHOTO`和`IF_VIDEO`为1）。
 
-6. 如果需要将实况照片（MOV视频）转换为GIF图片，设置`IF_LIVE2GIF = 1`。
+6. 设置`IF_LIVE2GIF = True`，如果需要将实况照片（M视频）转换为GIF图片，。
 
-7. 设置爬虫的`TIME_DELAY`以避免`ConnectionError: ('Connection aborted.', OSError(“(104, 'ECONNRESET')”,))`。
+7. 设置爬虫的`TIME_DELAY`以避免`ConnectionError 104: ('Connection aborted.')`。
+
+8. 如果出现`ConnectionError 104: ('Connection aborted.')`：
+
+   1. 设置`IF_RECONNECT = True`以重连模式运行爬虫。
+
+   2. 设置`TAG_STARTCARD`为启动微博的序号（根据日志信息）。
 
 ### 运行
 
-1. 运行`run_WeiboCrawler_v1.py`，以爬取某新浪微博用户的微博数据。
+1. 运行`run_WeiboCrawler_v1.py`，以爬取目标新浪微博用户的微博数据。
 
 2. 运行该程序的日志信息参见`Log_run_WeiboCrawler.txt`。
 
@@ -57,7 +63,7 @@
 
 1. 微博数据将会保存在预设定的文件夹（例如，`JJY_WeiboData/`）。
 
-2. 微博文本将会保存于TXT文件（例如，`JJY_WeiboData/JJY_WeiboPost_Records.txt`）。
+2. 微博文本将会保存于文本文件（例如，`JJY_WeiboData/JJY_WeiboPost_Records.txt`）。
 
 3. 图片、照片和视频将会保存于子文件夹（例如，`1/`、`1_livephoto/`和`1_video/`）。
 
