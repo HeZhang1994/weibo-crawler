@@ -63,7 +63,7 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 1. The Weibo data will be saved in the pre-specified folder (e.g., `Demo_WeiboData/`).
 
-2. The text of Weibo posts will be saved in the TXT file (e.g., `Demo_WeiboData/Demo_WeiboPost_Records.txt`).
+2. The text of Weibo posts will be saved in the TXT file (e.g., `~~Demo_WeiboData/Demo_WeiboPost_Records.txt~~`).
 
 3. The images, photos, and videos will be saved in sub-folders (e.g., `1/`, `1_livephoto/`, and `1_video/`).
 
