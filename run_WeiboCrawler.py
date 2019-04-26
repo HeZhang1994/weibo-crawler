@@ -96,7 +96,7 @@ PAGE_AMOUNT = 3
 #     The 'PAGE_AMOUNT' should be greater than 10% of the amount of Weibo posts.
 
 # 1.4 Set the nickname of the target Sina Weibo user.
-USER_NAME = 'JJY'
+USER_NAME = 'Demo'
 
 # 1.5 Create the folder for saving Weibo data.
 PATH_FOLDER = USER_NAME + '_WeiboData/'
