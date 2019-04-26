@@ -77,15 +77,15 @@ session.post(url=S_URL, data=S_DATA, headers=S_HEADER)
 #     -> To obtain 'S_HEADER', see 'Request Headers' (label).
 
 # 1.2 Set the request URL of the target Sina Weibo user (important).
-USER_URL = r'https://m.weibo.cn/api/container/getIndex?type=uid&value=3669102477&containerid=1076033669102477'
+USER_URL = r'https://m.weibo.cn/api/container/getIndex?type=uid&value=3347059490&containerid=1076033347059490'
 # The information of 'USER_URL' can be obtained as below:
-#     -> Open 'https://m.weibo.cn/u/3669102477' in browser
+#     -> Open 'https://m.weibo.cn/u/3347059490' in browser
 #     -> Login with a valid Sina Weibo account
 #     -> DevTools (F12) -> 'XHR' (tag) -> Refresh the web page (F5)
 #     -> Open '*getindex...' (file) in 'Name' (tag) -> 'Headers' (tag)
 #     -> To obtain 'USER_URL', see 'General' (label) -> 'Request URL'.
 # Note:
-#     '3669102477' is the unique ID of the target Sina Weibo user.
+#     '3347059490' is the unique ID of the target Sina Weibo user.
 #     The ID can be found in the address bar by opening the user's homepage in browser.
 
 # 1.3 Set the amount of web pages for crawling (important).
