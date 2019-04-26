@@ -63,7 +63,7 @@
 
 1. 微博数据将会保存在预设定的文件夹（例如，`Demo_WeiboData/`）。
 
-2. 微博文本将会保存于文本文件（例如，`~~Demo_WeiboData/Demo_WeiboPost_Records.txt~~`）。
+2. 微博文本将会保存于文本文件（例如，~~`Demo_WeiboData/Demo_WeiboPost_Records.txt`~~）。
 
 3. 图片、照片和视频将会保存于子文件夹（例如，`1/`、`1_livephoto/`和`1_video/`）。
 
