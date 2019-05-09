@@ -242,7 +242,7 @@ while count_page < PAGE_AMOUNT:
                         card_info = ''
                     if card_info:
                         if 'pic_video' in card_info:
-                            photo_str = card['mblog']['pic_video']
+                            photo_str = card_info['pic_video']
                             photo_list = re.split('[,]', photo_str)
                             for photo in photo_list:
                                 # E.g., 'photo' = '0:000voDMsjx07t57qM583010f0100alDF0k01'.
