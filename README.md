@@ -21,6 +21,10 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 - Crawling HD (preferred) or SD **videos** in original and retweeted Weibo posts.
 
+## Environment
+
+This code has been tested on Ubuntu 16.04 operating system. For Windows and macOS, the format of folder path should be changed accordingly.
+
 ## Dependencies
 
 * __requests 2.21.0__
