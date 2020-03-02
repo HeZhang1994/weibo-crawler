@@ -3,13 +3,12 @@
 [![image](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/HeZhang1994/weibo-crawler/blob/master/LICENSE)
 [![image](https://img.shields.io/badge/python-3.7-blue.svg)]()
 [![image](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
-[![image](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
 [*English Version*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README-cn.md)
 
 基于**Python**实现的从[微博移动端](https://m.weibo.cn/)爬取目标新浪微博用户的微博数据（文本、图片、实况照片和视频）。该爬虫通过session（用户名和密码）模拟用户登录。
 
-特别鸣谢[Python中文社区](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627)提供的原始代码`SourceCode_weibocrawler.py`。
+特别感谢[Python中文社区](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627)提供的原始代码`SourceCode_weibocrawler.py`。
 
 ## 功能
 
