@@ -6,7 +6,7 @@
 
 [*English Version*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README-cn.md)
 
-This is a **Python** implementation of crawling Weibo data (e.g., text, images, live photos, and videos) of target Sina Weibo user from the [Weibo Mobile Client](https://m.weibo.cn). It simulates user login with the **session** (username and password).
+This is a **Python** implementation of crawling Weibo data (e.g., text, images, live photos, and videos) of target Sina Weibo user from the [Weibo Mobile Client](https://m.weibo.cn). It simulates user login by a **session** (username and password).
 
 Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627) for providing the source code `SourceCode_weibocrawler.py`.
 
