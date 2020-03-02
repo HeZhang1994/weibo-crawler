@@ -6,7 +6,7 @@
 
 [*English Version*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README.md) | [*中文版*](https://github.com/HeZhang1994/weibo-crawler/blob/master/README-cn.md)
 
-基于**Python**实现的从[微博移动端](https://m.weibo.cn/)爬取目标新浪微博用户的微博数据（文本、图片、实况照片和视频）。该爬虫通过session（用户名和密码）来模拟用户登录。
+基于**Python**实现的从[微博移动端](https://m.weibo.cn/)爬取新浪微博用户的微博数据（文本、图片、实况照片和视频）。该爬虫通过session（用户名和密码）模拟用户登录。
 
 特别感谢[Python中文社区](https://blog.csdn.net/BF02jgtRS00XKtCx/article/details/79547627)提供的原始代码`SourceCode_weibocrawler.py`。
 
@@ -68,11 +68,11 @@
 
 ### 结果
 
-1. 微博数据将会保存在预设定的文件夹（例如，`Demo_WeiboData/`）。
+1. 微博数据将会保存到预设定的文件夹（例如，`Demo_WeiboData/`）。
 
-2. 微博文本将会保存于文本文件（例如，`Demo_WeiboData/Demo_WeiboPost_Records.txt`）。
+2. 微博文本将会保存到文本文件（例如，`Demo_WeiboData/Demo_WeiboPost_Records.txt`）。
 
-3. 图片、实况照片和视频将会保存于子文件夹（例如，`Demo_WeiboData/1/`、`Demo_WeiboData/1_livephoto/`和`Demo_WeiboData/1_video/`）。
+3. 图片、实况照片和视频将会保存到子文件夹（例如，`Demo_WeiboData/1/`、`Demo_WeiboData/1_livephoto/`和`Demo_WeiboData/1_video/`）。
 
 <br>
 
