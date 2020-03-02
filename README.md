@@ -72,7 +72,7 @@ This code has been tested on Ubuntu 16.04 operating system. For Windows and macO
 
 2. The text of Weibo posts will be saved in the TXT file (e.g., `Demo_WeiboData/Demo_WeiboPost_Records.txt`).
 
-3. The images, live photos, and videos will be saved in sub-folders (e.g., `1/`, `1_livephoto/`, and `1_video/`).
+3. The images, live photos, and videos will be saved in sub-folders (e.g., `Demo_WeiboData/1/` and `Demo_WeiboData/1_video/`).
 
 <br>
 
