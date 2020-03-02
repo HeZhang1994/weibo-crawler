@@ -16,7 +16,7 @@ Many thanks to [Python Chinese Community](https://blog.csdn.net/BF02jgtRS00XKtCx
 
 - Crawling large (preferred) or small **JPG/GIF images** in original and retweeted Weibo posts.
 
-- [**New!**] Crawling **live photos** (as JPG images, MOV videos, and/or GIF images) in original and retweeted Weibo posts.
+- Crawling **live photos** (as JPG images, MOV videos, and/or GIF images) in original and retweeted Weibo posts.
 
 - Crawling HD (preferred) or SD **videos** in original and retweeted Weibo posts.
 
